@@ -1,0 +1,36 @@
+:local .table
+{
+	
+	margin-bottom: 35px; 
+	background-color: aliceblue;;
+	box-sizing: content-box;
+    padding: 5px;
+    border-collapse: collapse;
+    width:100%;
+    
+
+}
+:local .table_wrap
+{	
+	box-sizing: content-box;
+	width:50%;
+	height:500px;
+	float:left;
+	overflow: scroll;
+
+}
+:local .table tr
+{
+	
+    border-bottom: 1px dotted aqua;
+
+}
+:local .table td
+{
+padding: 5px;
+}
+:local .loading
+{
+	margin-left:25%;
+	visibility: hidden;
+}
