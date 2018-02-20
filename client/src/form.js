@@ -1,7 +1,7 @@
 import React, {
     Component
 } from 'react';
-
+import  './styles.css';
 import Input from "./input";
 import Radio from "./radiobutton";
 import Check from "./checkbox";
