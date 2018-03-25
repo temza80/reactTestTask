@@ -22,8 +22,8 @@ router.post('/save', function(req, res, next) {
 router.get('/getall', function(req, res, next) {
     Data.findOne().sort('-modified').exec(function(err, item) {
         if (err) console.log(err.message);
-        console.log(item.dataStr);
-        res.json(item.dataStr)
+        
+        if(item) res.json(item.dataStr)
     });
 
 })
